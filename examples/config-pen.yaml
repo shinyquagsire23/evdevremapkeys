@@ -1,0 +1,8 @@
+devices:
+- input_name: 'ELAN9038:00 04F3:261A Pen'
+  output_name: remap-pen
+  remappings:
+    'BTN_TOOL_RUBBER': [
+         {'code': 'BTN_TOOL_PEN', 'value': 0},
+         {'code': 'BTN_TOOL_RUBBER'}
+    ]
